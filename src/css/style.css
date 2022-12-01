@@ -1,0 +1,96 @@
+@font-face {
+    font-family: 'Veggy';
+    src: url(../fonts/VEGgY\ PERSONAL\ USE.ttf);
+}
+
+@font-face {
+    font-family: 'Star number';
+    src: url(../fonts/Starborn.ttf);
+}
+
+body {
+    background-color: #fff4f4;
+    font-family: 'Veggy', Tahoma, Geneva, Verdana, sans-serif;
+    display:flex;
+    flex-direction: column;
+    align-items: center;  
+}
+
+main {
+    max-width: 200px;
+    min-width: 50px;
+    height: 100%;
+    margin-top: 10px;
+}
+
+
+.conteudo {
+    background-color: #ffd6ca;
+    border-radius: 2px;
+    padding: 5px 2px;
+}
+
+
+.conteudo .info ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px;
+}
+
+.conteudo .fa-heart {
+    font-size: 12px;
+    color: #972222;
+}
+
+.carta {
+    height: 300px;
+    padding: 15px;
+    display: none;
+}
+
+.carta span {
+    font-size: 12px;
+}
+
+.carta.selecionado {
+    display: block;
+}
+
+.paginas {
+    position: relative;
+    height: 20px;
+    margin: 0 5px;
+}
+
+.paginas span {
+    font-weight: 900;
+    font-size: 10px;
+    color: #8b0000;
+}
+
+.pagina {
+    position: absolute;
+    top: 0;
+    display: block;
+    cursor: pointer;
+}
+
+.pagina:hover {
+    color: #8b0000;
+    transition: 0.2s ease-in-out;
+}
+
+.pagina#proxima {
+    right: 0;
+    
+}
+
+.pagina.selecionado {
+    display: none;
+}
+ 
+.numeros {
+    font-family: 'Star number', Courier, monospace;
+    font-size: 0.5em;
+    line-height: 27px;
+}
