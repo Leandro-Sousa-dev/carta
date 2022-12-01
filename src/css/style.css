@@ -56,7 +56,10 @@ main {
 }
 
 .carta {
+<<<<<<< HEAD
     position: relative;
+=======
+>>>>>>> 84d25c7a28791fbfd51fb43bf7a83debe031bb52
     height: 550px;
     padding: 15px;
     display: none;
